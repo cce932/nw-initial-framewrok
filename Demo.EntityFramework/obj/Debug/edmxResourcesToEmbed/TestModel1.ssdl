@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ntust_infoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="IDCard" />
+    </Key>
+    <Property Name="Semester" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="EmployeeName" Type="nchar" MaxLength="11" Nullable="false" />
+    <Property Name="EmployeeEngName" Type="char" MaxLength="30" Nullable="false" />
+    <Property Name="EmployeePic" Type="char" MaxLength="15" Nullable="false" />
+    <Property Name="IDCard" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Sex" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="Birthday" Type="char" MaxLength="6" Nullable="false" />
+    <Property Name="BornLoc" Type="char" MaxLength="20" Nullable="false" />
+    <Property Name="RegisterLoc" Type="char" MaxLength="16" Nullable="false" />
+    <Property Name="NowCondition" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="AlwaysTel" Type="char" MaxLength="20" Nullable="false" />
+    <Property Name="AlwaysAddress" Type="char" MaxLength="100" Nullable="false" />
+    <Property Name="NowTel" Type="char" MaxLength="20" Nullable="false" />
+    <Property Name="NowTelMark" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="NowAddress" Type="char" MaxLength="100" Nullable="false" />
+    <Property Name="NowAddressMark" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="MobilePhone" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="MobilePhoneMark" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="Marriage" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="UnitCode" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Nationality" Type="char" MaxLength="20" Nullable="false" />
+    <Property Name="ArriveDate" Type="char" MaxLength="6" Nullable="false" />
+    <Property Name="TitleName" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="SalaryTitle" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="HighestSch" Type="char" MaxLength="100" Nullable="false" />
+    <Property Name="SecondJobs" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Account" Type="char" MaxLength="20" Nullable="false" />
+    <Property Name="Email" Type="char" MaxLength="60" Nullable="false" />
+    <Property Name="EmailMark" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="WWW" Type="char" MaxLength="60" Nullable="false" />
+    <Property Name="WWWMark" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="OfficeNo" Type="char" MaxLength="20" Nullable="false" />
+    <Property Name="OfficeNoMark" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="OfficeTel" Type="char" MaxLength="15" Nullable="false" />
+    <Property Name="OfficeTelMark" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="OfficeHour" Type="char" MaxLength="40" Nullable="false" />
+    <Property Name="UrgentName" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="UrgentTel" Type="char" MaxLength="15" Nullable="false" />
+    <Property Name="Password" Type="char" MaxLength="20" Nullable="false" />
+    <Property Name="CreateDateTime" Type="char" MaxLength="20" Nullable="false" />
+    <Property Name="CIDCard" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Note" Type="char" MaxLength="100" Nullable="false" />
+    <Property Name="Deans_no" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Lib_no" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="People_no" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="FullMark" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="StopMark" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="pos_goverment" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="position" Type="char" MaxLength="50" Nullable="false" />
+    <Property Name="disoclock" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="Ntust_Email" Type="char" MaxLength="60" Nullable="false" />
+    <Property Name="EryPwd" Type="varbinary" MaxLength="50" />
+    <Property Name="EryID" Type="varbinary" MaxLength="50" />
+    <Property Name="LookCheck" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="PDProtect_mark" Type="nchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ntust_infoModelStoreContainer">
+    <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

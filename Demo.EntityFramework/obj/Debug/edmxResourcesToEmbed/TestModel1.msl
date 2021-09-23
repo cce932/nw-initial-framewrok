@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ntust_infoModelStoreContainer" CdmEntityContainer="ntust_infoEntities">
+    <EntitySetMapping Name="Employee">
+      <EntityTypeMapping TypeName="ntust_infoModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="Semester" ColumnName="Semester" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="EmployeeEngName" ColumnName="EmployeeEngName" />
+          <ScalarProperty Name="EmployeePic" ColumnName="EmployeePic" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="BornLoc" ColumnName="BornLoc" />
+          <ScalarProperty Name="RegisterLoc" ColumnName="RegisterLoc" />
+          <ScalarProperty Name="NowCondition" ColumnName="NowCondition" />
+          <ScalarProperty Name="AlwaysTel" ColumnName="AlwaysTel" />
+          <ScalarProperty Name="AlwaysAddress" ColumnName="AlwaysAddress" />
+          <ScalarProperty Name="NowTel" ColumnName="NowTel" />
+          <ScalarProperty Name="NowTelMark" ColumnName="NowTelMark" />
+          <ScalarProperty Name="NowAddress" ColumnName="NowAddress" />
+          <ScalarProperty Name="NowAddressMark" ColumnName="NowAddressMark" />
+          <ScalarProperty Name="MobilePhone" ColumnName="MobilePhone" />
+          <ScalarProperty Name="MobilePhoneMark" ColumnName="MobilePhoneMark" />
+          <ScalarProperty Name="Marriage" ColumnName="Marriage" />
+          <ScalarProperty Name="UnitCode" ColumnName="UnitCode" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+          <ScalarProperty Name="ArriveDate" ColumnName="ArriveDate" />
+          <ScalarProperty Name="TitleName" ColumnName="TitleName" />
+          <ScalarProperty Name="SalaryTitle" ColumnName="SalaryTitle" />
+          <ScalarProperty Name="HighestSch" ColumnName="HighestSch" />
+          <ScalarProperty Name="SecondJobs" ColumnName="SecondJobs" />
+          <ScalarProperty Name="Account" ColumnName="Account" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EmailMark" ColumnName="EmailMark" />
+          <ScalarProperty Name="WWW" ColumnName="WWW" />
+          <ScalarProperty Name="WWWMark" ColumnName="WWWMark" />
+          <ScalarProperty Name="OfficeNo" ColumnName="OfficeNo" />
+          <ScalarProperty Name="OfficeNoMark" ColumnName="OfficeNoMark" />
+          <ScalarProperty Name="OfficeTel" ColumnName="OfficeTel" />
+          <ScalarProperty Name="OfficeTelMark" ColumnName="OfficeTelMark" />
+          <ScalarProperty Name="OfficeHour" ColumnName="OfficeHour" />
+          <ScalarProperty Name="UrgentName" ColumnName="UrgentName" />
+          <ScalarProperty Name="UrgentTel" ColumnName="UrgentTel" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="CreateDateTime" ColumnName="CreateDateTime" />
+          <ScalarProperty Name="CIDCard" ColumnName="CIDCard" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="Deans_no" ColumnName="Deans_no" />
+          <ScalarProperty Name="Lib_no" ColumnName="Lib_no" />
+          <ScalarProperty Name="People_no" ColumnName="People_no" />
+          <ScalarProperty Name="FullMark" ColumnName="FullMark" />
+          <ScalarProperty Name="StopMark" ColumnName="StopMark" />
+          <ScalarProperty Name="pos_goverment" ColumnName="pos_goverment" />
+          <ScalarProperty Name="position" ColumnName="position" />
+          <ScalarProperty Name="disoclock" ColumnName="disoclock" />
+          <ScalarProperty Name="Ntust_Email" ColumnName="Ntust_Email" />
+          <ScalarProperty Name="EryPwd" ColumnName="EryPwd" />
+          <ScalarProperty Name="EryID" ColumnName="EryID" />
+          <ScalarProperty Name="LookCheck" ColumnName="LookCheck" />
+          <ScalarProperty Name="PDProtect_mark" ColumnName="PDProtect_mark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

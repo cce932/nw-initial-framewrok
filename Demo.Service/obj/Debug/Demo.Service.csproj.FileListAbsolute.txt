@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\ClassLibrary1\Demo.Service\bin\Debug\Demo.Service.dll
+C:\Users\user\source\repos\ClassLibrary1\Demo.Service\bin\Debug\Demo.Service.pdb
+C:\Users\user\source\repos\ClassLibrary1\Demo.Service\obj\Debug\Demo.Service.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ClassLibrary1\Demo.Service\obj\Debug\Demo.Service.dll
+C:\Users\user\source\repos\ClassLibrary1\Demo.Service\obj\Debug\Demo.Service.pdb
+C:\Users\user\source\repos\ClassLibrary1\Demo.Service\bin\Debug\Demo.EntityFramework.dll
+C:\Users\user\source\repos\ClassLibrary1\Demo.Service\bin\Debug\Demo.Repository.dll
+C:\Users\user\source\repos\ClassLibrary1\Demo.Service\bin\Debug\EntityFramework.dll
+C:\Users\user\source\repos\ClassLibrary1\Demo.Service\bin\Debug\Demo.EntityFramework.pdb
+C:\Users\user\source\repos\ClassLibrary1\Demo.Service\bin\Debug\Demo.EntityFramework.dll.config
+C:\Users\user\source\repos\ClassLibrary1\Demo.Service\bin\Debug\Demo.Repository.pdb
+C:\Users\user\source\repos\ClassLibrary1\Demo.Service\bin\Debug\EntityFramework.xml
+C:\Users\user\source\repos\ClassLibrary1\Demo.Service\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\user\source\repos\ClassLibrary1\Demo.Service\obj\Debug\Demo.Service.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ClassLibrary1\Demo.Service\obj\Debug\Demo.Service.csproj.CopyComplete

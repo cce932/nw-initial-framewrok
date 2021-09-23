@@ -1,0 +1,5 @@
+C:\Users\user\source\repos\ClassLibrary1\Demo.Identity\bin\Debug\Demo.Identity.dll
+C:\Users\user\source\repos\ClassLibrary1\Demo.Identity\bin\Debug\Demo.Identity.pdb
+C:\Users\user\source\repos\ClassLibrary1\Demo.Identity\obj\Debug\Demo.Identity.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ClassLibrary1\Demo.Identity\obj\Debug\Demo.Identity.dll
+C:\Users\user\source\repos\ClassLibrary1\Demo.Identity\obj\Debug\Demo.Identity.pdb
